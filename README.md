@@ -1,10 +1,10 @@
-# SBSDesktop
+# SBSDesktop v3.0
 
 **Professional Docker & Kubernetes Management Suite**
 
 A unified Windows GUI application that simplifies Docker and Kubernetes installation and management on Windows with WSL2 integration.
 
-![SBSDesktop Interface](https://img.shields.io/badge/Platform-Windows-blue) ![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-blue) ![WSL2](https://img.shields.io/badge/WSL2-Required-green) ![Admin Required](https://img.shields.io/badge/Admin-Required-red)
+![SBSDesktop Interface](https://img.shields.io/badge/Platform-Windows-blue) ![Version](https://img.shields.io/badge/Version-3.0-green) ![WSL2](https://img.shields.io/badge/WSL2-Required-green) ![Admin Required](https://img.shields.io/badge/Admin-Required-red)
 
 ## 🚀 Features
 
@@ -29,6 +29,24 @@ A unified Windows GUI application that simplifies Docker and Kubernetes installa
 - **Error Handling**: Intelligent troubleshooting guidance
 - **Clean Uninstalls**: Complete component removal
 
+## 🆕 What's New in v3.0
+
+### **Visual Enhancements**
+- **Version Display**: Prominent v3.0 label in top-right corner
+- **Professional Branding**: Consistent v3.0 messaging throughout
+- **Enhanced UI**: Improved button positioning and layout
+
+### **Technical Improvements**
+- **Enhanced Logging**: All operations now tagged with v3.0
+- **Better Error Messages**: More specific troubleshooting guidance
+- **Improved Stability**: Enhanced error handling and recovery
+- **Updated Dependencies**: Latest versions of all tools and components
+
+### **User Experience**
+- **Clear Version Identification**: Always know which version you're running
+- **Professional Interface**: Enterprise-ready appearance
+- **Consistent Branding**: v3.0 identity across all operations
+
 ## 📋 Prerequisites
 
 ### System Requirements
@@ -50,19 +68,21 @@ A unified Windows GUI application that simplifies Docker and Kubernetes installa
 
 ### Quick Start
 
-1. **Download** the SBSDesktop-GUI.exe file
+1. **Download** the SBSDesktop-GUI.exe v3.0 file
 2. **Run as Administrator** by right-clicking → **Run as administrator**
 3. **Choose your operation**:
    - Install Docker
    - Install Kubernetes
    - Uninstall components
 
+*Version 3.0 displays prominently in the top-right corner of the interface*
+
 ### Step-by-Step Process
 
 #### Docker Installation
 ```
 # Run as Administrator
-SBSDesktop-GUI.exe
+SBSDesktop-GUI.exe v3.0
 # Click "INSTALL DOCKER"
 # Follow the guided installation process
 ```
@@ -70,7 +90,7 @@ SBSDesktop-GUI.exe
 #### Kubernetes Installation
 ```
 # Ensure Docker is installed first
-# Run SBSDesktop-GUI.exe
+# Run SBSDesktop-GUI.exe v3.0
 # Click "INSTALL KUBERNETES"
 # Wait for cluster creation and tool setup
 ```
@@ -168,7 +188,7 @@ Test-NetConnection github.com -Port 443
 ```
 
 ### Log Files
-- Main log: `SBSDesktop_YYYY-MM-DD_HH-mm-ss.log`
+- Main log: `SBSDesktop_v3.0_YYYY-MM-DD_HH-mm-ss.log`
 - Docker logs: `/var/log/dockerd.log` (in WSL)
 - Kubernetes logs: `kubectl logs` commands
 
@@ -182,8 +202,8 @@ Test-NetConnection github.com -Port 443
 
 ```
 SBSDocker-v1/
-├── SBSDesktop-GUI.exe               # Main application executable
-└── README.md                        # This file
+├── SBSDesktop-GUI.exe               # Main application executable (v3.0)
+└── README.md                        # This file (v3.0 updated)
 ```
 
 ## 🎯 Use Cases
@@ -212,23 +232,30 @@ SBSDocker-v1/
 If you're using SBSDocker-portainer-GUI.ps1 or SBSKubernetes-GUI.ps1:
 1. **Backup** your current installations
 2. **Uninstall** using the old scripts
-3. **Install** using SBSDesktop-GUI.exe
+3. **Install** using SBSDesktop-GUI.exe v3.0
 4. **Restore** any custom configurations
 
 ### Version Updates
-1. **Download** the latest SBSDesktop-GUI.exe
+1. **Download** the latest SBSDesktop-GUI.exe v3.0
 2. **Backup** your installation marker (`donotdelete.txt`)
 3. **Run** the new executable as Administrator
 4. **Verify** all components work correctly
 
+### From v1.0/v2.0 to v3.0
+- **Enhanced Interface**: Version display in top-right corner
+- **Improved Logging**: v3.0 branding throughout log messages
+- **Better Error Handling**: Enhanced troubleshooting guidance
+- **Updated Dependencies**: Latest tool versions and security patches
+
 ## 🤝 Contributing
 
 ### Development
-- **Source**: PowerShell 5.1+ (SBSDesktop-GUI.ps1)
-- **Distribution**: Compiled executable (SBSDesktop-GUI.exe)
+- **Source**: PowerShell 5.1+ (SBSDesktop-GUI.ps1 v3.0)
+- **Distribution**: Compiled executable (SBSDesktop-GUI.exe v3.0)
 - **Framework**: Windows Forms
 - **Architecture**: Modular functions
 - **Testing**: Manual GUI testing
+- **Version**: 3.0 with enhanced UI and branding
 
 ### Guidelines
 1. **Maintain** administrator requirement checks
@@ -264,4 +291,6 @@ For issues and questions:
 
 ---
 
-**Built with ❤️ for the Docker and Kubernetes community**
+**SBSDesktop v3.0 - Built with ❤️ for the Docker and Kubernetes community**
+
+*Professional Docker & Kubernetes Management Suite - Now with enhanced v3.0 interface*
