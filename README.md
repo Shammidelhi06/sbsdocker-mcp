@@ -183,12 +183,6 @@ Test-NetConnection github.com -Port 443
 ```
 SBSDocker-v1/
 ├── SBSDesktop-GUI.exe               # Main application executable
-├── SBSDesktop-GUI.ps1               # Source PowerShell script
-├── SBSDocker-portainer-GUI.ps1      # Original Docker script
-├── SBSKubernetes-GUI.ps1            # Original Kubernetes script
-├── donotdelete.txt                  # Installation marker
-├── simple_sbsdocker_icon.ico        # Application icon
-├── simple_sbsdocker_icon.svg        # Vector icon
 └── README.md                        # This file
 ```
 
